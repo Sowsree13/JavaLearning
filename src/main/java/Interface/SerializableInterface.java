@@ -1,3 +1,5 @@
+package Interface;
+
 import java.io.*;
 
 class B implements Serializable{

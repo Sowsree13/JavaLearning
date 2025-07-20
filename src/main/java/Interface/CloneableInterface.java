@@ -1,3 +1,5 @@
+package Interface;
+
 class Animal implements Cloneable{
     String name;
     String sound;

@@ -1,9 +1,9 @@
-import org.w3c.dom.ls.LSOutput;
+package Interface;
 
 import java.io.Serializable;
 class A implements Serializable{
     void show(){
-        System.out.println("A is serializable");
+        System.out.println("Interface.A is serializable");
     }
 
 }
@@ -16,7 +16,7 @@ public class MarkerInterface  {
             obj1.show();
         }
         else{
-            System.out.println("A is not serializable");
+            System.out.println("Interface.A is not serializable");
         }
     }
 

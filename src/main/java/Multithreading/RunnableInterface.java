@@ -1,3 +1,5 @@
+package Multithreading;
+
 public class RunnableInterface implements Runnable{
     //Advantage: Can implement any other interface since java support it
     @Override
