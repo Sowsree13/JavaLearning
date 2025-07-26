@@ -15,5 +15,11 @@ public class CloneableInterface {
         obj.name="Cat";
         obj.sound="meow";
         Animal obj1= (Animal) obj.clone();
+
+        obj1.sound="bow";
+        System.out.println(obj1.name);
+        System.out.println(obj1.sound);
+        System.out.println(obj.name);
+        System.out.println(obj.sound);
     }
 }
